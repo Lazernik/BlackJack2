@@ -5,5 +5,5 @@ import java.util.LinkedList;
 /**
  * Created by student2 on 14.11.16.
  */
-public class Computer extends LinkedList<Player> {
+public class Computer extends Player {
 }

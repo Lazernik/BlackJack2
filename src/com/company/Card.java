@@ -9,7 +9,7 @@ public class Card {
 
     @Override
     public String toString() {
-        return "Card" + value + " of " + suit;
+        return value + " of " + suit;
     }
 
     public Card(Suit suit, Value value) {
