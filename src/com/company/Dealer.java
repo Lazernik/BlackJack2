@@ -8,6 +8,8 @@ import java.util.LinkedList;
 public class Dealer extends Computer {
     Deck deck = new Deck();
 
+    public Dealer
+
     public void deal(Player player) {
         Card current = deck.pop();
         player.take(current);

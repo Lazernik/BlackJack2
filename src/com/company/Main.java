@@ -10,8 +10,9 @@ public class Main {
     public static void main(String[] args) {
 
         List<Player> players = new LinkedList<>();
-        players.add(new Computer());
-        players.add(new Computer());
+
+        players.add(new LimitIntellect(14);
+        players.add(new Computer( new LimitIntellect(14)));
         players.add(new Human());
         Dealer dealer = new Dealer();
         players.add(dealer);
@@ -24,6 +25,7 @@ public class Main {
 
         for(Player player: players){
             while(true){
+                System.out.println();
                 Command command = player.decision();
                 if(command == Command.STAND)
                     break;

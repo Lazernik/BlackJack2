@@ -7,13 +7,12 @@ public abstract class Player {
  Hand hand = new Hand();
  private Intellect intellect;
 
- public Player(Intellect)
-
  public void take(Card current) {
   hand.add(current);
  }
 
  public Command decision() {
+  int score=hand.getscore();
   return intellect.decide(score);
  }
 }
