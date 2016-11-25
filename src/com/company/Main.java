@@ -31,6 +31,14 @@ public class Main {
                     break;
                 if (command == Command.HIT)
                     dealer.deal(player);
+                for(Player player: players)
+                    if(player = dealer)
+                        if (player.hand.getscore()>21)
+                            player.state=State.DEFEAT;
+
+
+
+
             }
         }
     }
